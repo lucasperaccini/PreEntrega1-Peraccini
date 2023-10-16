@@ -1,4 +1,4 @@
-var valor = document.getElementById("valor");
+let valor = document.getElementById("valor");
 valor.addEventListener('keyup',convertir);
 txtResultado = document.getElementById("resultado");
 //hasta aca solo entiende que ocurre una accion y llama a la funcion convertir
@@ -9,7 +9,7 @@ unidad1.addEventListener('change', convertir);
 
 //variable de resultado
 
-var resultado;
+let resultado;
 
 //funcion
 
