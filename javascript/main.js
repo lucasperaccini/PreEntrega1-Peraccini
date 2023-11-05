@@ -7,6 +7,8 @@ unidad0.addEventListener('change', convertir);
 unidad1 = document.getElementById("unidad1");
 unidad1.addEventListener('change', convertir);
 
+
+
 //variable de resultado
 
 let resultado;
@@ -22,69 +24,67 @@ function convertir(){
 
     if(unidad0.value=="Kilometro" && unidad1.value=="Kilometro"){
         resultado = numero * 1;
-        txtResultado.innerHTML = numero < "Kilometro/s es igual a " + resultado + "Kilometro/s"
+        txtResultado.innerHTML = numero + "Kilometro/s es igual a " + resultado + "Kilometro/s"
     }
     if(unidad0.value=="Kilometro" && unidad1.value=="Metro"){
         resultado = numero * 1000;
-        txtResultado.innerHTML = numero < "Kilometro/s es igual a " + resultado + "Metro/s"
+        txtResultado.innerHTML = numero + "Kilometro/s es igual a " + resultado + "Metro/s"
     }
     if(unidad0.value=="Kilometro" && unidad1.value=="Centimetro"){
         resultado = numero * 10000;
-        txtResultado.innerHTML = numero < "Kilometro/s es igual a " + resultado + "Centimetro/s"
+        txtResultado.innerHTML = numero + "Kilometro/s es igual a " + resultado + "Centimetro/s"
     }
     if(unidad0.value=="Kilometro" && unidad1.value=="Milimetro"){
         resultado = numero * 100000;
-        txtResultado.innerHTML = numero < "Kilometro/s es igual a " + resultado + "Milimetro/s"
+        txtResultado.innerHTML = numero + "Kilometro/s es igual a " + resultado + "Milimetro/s"
     }
     if(unidad0.value=="Metro" && unidad1.value=="Kilometro"){
         resultado = numero / 1;
-        txtResultado.innerHTML = numero < "Metro/s es igual a " + resultado + "Kilometro/s"
+        txtResultado.innerHTML = numero + "Metro/s es igual a " + resultado + "Kilometro/s"
     }
     if(unidad0.value=="Metro" && unidad1.value=="Metro"){
         resultado = numero * 1;
-        txtResultado.innerHTML = numero < "Metro/s es igual a " + resultado + "Metro/s"
+        txtResultado.innerHTML = numero + "Metro/s es igual a " + resultado + "Metro/s"
     }
     if(unidad0.value=="Metro" && unidad1.value=="Centimetro"){
         resultado = numero * 100;
-        txtResultado.innerHTML = numero < "Metro/s es igual a " + resultado + "Centimetro/s"
+        txtResultado.innerHTML = numero + "Metro/s es igual a " + resultado + "Centimetro/s"
     }
     if(unidad0.value=="Metro" && unidad1.value=="Milimetro"){
         resultado = numero * 1000;
-        txtResultado.innerHTML = numero < "Metro/s es igual a " + resultado + "Milimetro/s"
+        txtResultado.innerHTML = numero + "Metro/s es igual a " + resultado + "Milimetro/s"
     }
     if(unidad0.value=="Centimetros" && unidad1.value=="Kilometro"){
         resultado = numero / 100000;
-        txtResultado.innerHTML = numero < "Centimetro/s es igual a " + resultado + "Kilometro/s"
+        txtResultado.innerHTML = numero + "Centimetro/s es igual a " + resultado + "Kilometro/s"
     }
     if(unidad0.value=="Centimetros" && unidad1.value=="Metro"){
         resultado = numero / 100;
-        txtResultado.innerHTML = numero < "Centimetros/s es igual a " + resultado + "Metro/s"
+        txtResultado.innerHTML = numero + "Centimetros/s es igual a " + resultado + "Metro/s"
     }
     if(unidad0.value=="Centimetros" && unidad1.value=="Centimetro"){
         resultado = numero * 1;
-        txtResultado.innerHTML = numero < "Centimetro/s es igual a " + resultado + "Centimetro/s"
+        txtResultado.innerHTML = numero + "Centimetro/s es igual a " + resultado + "Centimetro/s"
     }
     if(unidad0.value=="Centimetros" && unidad1.value=="Milimetro"){
         resultado = numero / 10;
-        txtResultado.innerHTML = numero < "Centimetro/s es igual a " + resultado + "Milimetro/s"
+        txtResultado.innerHTML = numero + "Centimetro/s es igual a " + resultado + "Milimetro/s"
     }
     if(unidad0.value=="Milimetro" && unidad1.value=="Kilometro"){
         resultado = numero * 10000;
-        txtResultado.innerHTML = numero < "Milimetro/s es igual a " + resultado + "Kilometro/s"
+        txtResultado.innerHTML = numero + "Milimetro/s es igual a " + resultado + "Kilometro/s"
     }
     if(unidad0.value=="Milimetro" && unidad1.value=="Metro"){
         resultado = numero * 100;
-        txtResultado.innerHTML = numero < "Milimetro/s es igual a " + resultado + "Metro/s"
+        txtResultado.innerHTML = numero + "Milimetro/s es igual a " + resultado + "Metro/s"
     }
     if(unidad0.value=="Milimetro" && unidad1.value=="Centimetro"){
         resultado = numero * 10;
-        txtResultado.innerHTML = numero < "Milimetro/s es igual a " + resultado + "Centimetro/s"
+        txtResultado.innerHTML = numero + "Milimetro/s es igual a " + resultado + "Centimetro/s"
     }
     if(unidad0.value=="Milimetro" && unidad1.value=="Milimetro"){
         resultado = numero * 1;
-        txtResultado.innerHTML = numero < "Milimetro/s es igual a " + resultado + "Milimetro/s"
+        txtResultado.innerHTML = numero + "Milimetro/s es igual a " + resultado + "Milimetro/s"
     }
 
 }
-
-
